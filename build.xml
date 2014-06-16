@@ -13,6 +13,7 @@
 	<property name="install.dir" value=".." />
 	-->
 	<property name="install.dir" value="jEdit_Settings" />
+        <property name="coqedit.install.dir" value="jEdit_Settings/jars" />
 	
 	<property name="src.dir" location="." />
 	<mkdir dir="${src.dir}"/>
@@ -40,7 +41,8 @@
 					<!-- required for jEdit plugin -->
 					<pathelement location="${jedit.install.dir}/jedit.jar" />
 					
-					<pathelement location="../CoqEdit/build/classes/" />
+					<!--<pathelement location="../CoqEdit/build/classes/" />-->
+                                        <pathelement location="${coqedit.install.dir}/CoqEdit.jar" />
 			</path>
 	</target>
 	
