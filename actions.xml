@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE ACTIONS SYSTEM "actions.dtd">
+
+<ACTIONS>
+	<ACTION NAME="proofpreviews.get-suggestions">
+		<CODE>
+			proofPreviewsPlugin = 
+			 edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.getInstance();
+			proofPreviewsPlugin.getSuggestions();
+		</CODE>
+	</ACTION>
+</ACTIONS>

@@ -1,0 +1,27 @@
+# Properties file for ProofPreviews
+
+# jEdit only needs to load the plugin the first time the user accesses it
+# the presence of this property also tells jEdit the plugin is using the new API
+#plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.activate=defer
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.activate=startup
+
+
+# These two properties are required for all plugins
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.name=ProofPreviews
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.author=Benjamin Berman and Harley Eades
+
+# description
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.description=A Plugin for the Coq ITP
+
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.version=0.1
+
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.depend.0=jedit 04.05.02.00
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.depend.1=plugin edu.uiowa.cs.coqedit.CoqEditPlugin 0.1
+
+
+# plugin menu
+plugin.edu.uiowa.cs.proofpreviews.ProofPreviewsPlugin.menu=proofpreviews.get-suggestions 
+
+# labels for menu
+proofpreviews.get-suggestions.label=Get Suggestions
+
